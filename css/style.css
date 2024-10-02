@@ -84,6 +84,133 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.content-wrapper {
+  outline: 3px dotted red;
+  justify-content: center;
+  width: 90%;
+}
+
+/* ------------ Base Header - Footer Styles ------------- */
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+/* ^the reason for align-items: center is to center the logo and nav in its parent element (header .content-wrapper) */
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ^space-around is added so that the logo and nav have space around their parent container */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+
+footer .social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Hero Area */
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+/* Aside */
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+aside .content-wrapper {
+}
+
+aside .form-description {
+}
+
+aside .form {
+}
+/* Features */
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features .features-items {
+  display: flex;
+  justify-content: center;
+  align-items: flex;
+  flex-flow: row wrap;
+
+}
+
+.fontawesome-icons {
+}
+
+.features-item-description {
+
+
+}
+
+/* Reviews */
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+/* ========= About Page ========*/
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+/* ========= FAQ Page ======= */
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -244,4 +371,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
