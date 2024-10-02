@@ -85,9 +85,8 @@ textarea {
    ========================================================================== */
 
 .content-wrapper {
-  outline: 3px dotted red;
-  justify-content: center;
   width: 90%;
+  margin: 50px 0;
 }
 
 /* ------------ Base Header - Footer Styles ------------- */
@@ -95,6 +94,7 @@ textarea {
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -102,13 +102,25 @@ header .content-wrapper {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  margin: 0;
+}
+
+.header-divider {
+  width: 100%;
+  width: 1px;
+  margin: 10px 0 20px 0;
 }
 
 /* ^the reason for align-items: center is to center the logo and nav in its parent element (header .content-wrapper) */
 
+header nav {
+  width: 60%;
+}
+
 header nav ul {
   display: flex;
   justify-content: space-around;
+  width: 100%;
 }
 
 /* ^space-around is added so that the logo and nav have space around their parent container */
@@ -120,7 +132,21 @@ footer {
   text-align: center;
 }
 
+footer .content-wrapper {
+  width: 55%;
+}
 
+footer .contact {
+  margin-bottom: 50px;
+}
+
+footer .contact h4 {
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+}
 
 footer .social-icons {
   display: flex;
@@ -132,7 +158,14 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+ 
 }
+
+footer .copyright {
+  margin: 20px 0;
+}
+
+/* ----------- Mobile Styles - Homepage -------- */
 
 /* Hero Area */
 
@@ -146,16 +179,8 @@ footer .social-icons p {
 aside {
   display: flex;
   justify-content: center;
-}
+} 
 
-aside .content-wrapper {
-}
-
-aside .form-description {
-}
-
-aside .form {
-}
 /* Features */
 
 .features {
@@ -163,21 +188,29 @@ aside .form {
   justify-content: center;
 }
 
+.features article {
+  width: 63%;
+  margin: 30px 0;
+
+}
+
+.features p {
+  margin: 0;
+}
+
+.features h2 {
+  margin-bottom: 60px;
+}
+
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex;
+  align-items: flex-start;
   flex-flow: row wrap;
 
 }
 
-.fontawesome-icons {
-}
 
-.features-item-description {
-
-
-}
 
 /* Reviews */
 
@@ -185,6 +218,16 @@ aside .form {
   display: flex;
   justify-content: center;
 }
+
+.reviews h2 {
+  margin-bottom: 40px;
+}
+
+.reviews h3 {
+  width: 55%;
+  padding: 20px 0;
+}
+
 
 /* ========= About Page ========*/
 
@@ -198,6 +241,10 @@ aside .form {
   justify-content: center;
 }
 
+.contact-content p {
+  margin: 0;
+}
+
 /* ========= FAQ Page ======= */
 .faq {
   display: flex;
@@ -209,6 +256,15 @@ aside .form {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
