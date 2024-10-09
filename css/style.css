@@ -84,6 +84,56 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* General styles */
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  text-align: left;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  color: #e2e3ed;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+  font-weight: 500;
+}
+
+h3,
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125em;
+  font-weight: 500;
+}
+
+p {
+  font-size: 0.875em;
+  line-height: 18px;
+}
+
+img {
+}
+
+figure {
+}
+
+address {
+  font-style: normal;
+}
+
 .content-wrapper {
   width: 90%;
   margin: 50px 0;
@@ -162,6 +212,10 @@ footer .social-icons p {
 
 footer .copyright {
   margin: 20px 0;
+}
+
+address {
+  font-style: normal;
 }
 
 /* ----------- Mobile Styles - Homepage -------- */
@@ -254,7 +308,7 @@ aside {
 }
 
 .faq h2 {
-  margin: 40px;
+  margin-bottom: 40px;
 }
 
 .faq-content {
@@ -509,9 +563,9 @@ aside .content-wrapper .form {
   width: 42%;
 }
 
-
 /* ======== About Page ======= */
-.mission h2, .contact-section .content-wrapper h2 {
+.mission h2,
+.contact-section .content-wrapper h2 {
   width: 90%;
 }
 
