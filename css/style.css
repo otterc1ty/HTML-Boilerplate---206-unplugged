@@ -93,12 +93,15 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
+  color: #e2e3ed;
   text-align: left;
 }
 
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -106,10 +109,18 @@ a {
   text-decoration: none;
 }
 
+h1 {
+  font-size: 2.25em;
+  line-height: 43px;
+  font-weight: 500;
+
+}
+
 h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.875em;
   font-weight: 500;
+
 }
 
 h3,
@@ -117,11 +128,12 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 1.125em;
   font-weight: 500;
+  margin: 20px 0;
 }
 
 p {
   font-size: 0.875em;
-  line-height: 18px;
+  line-height: 1.285;
 }
 
 img {
@@ -145,6 +157,7 @@ header {
   display: flex;
   justify-content: center;
   padding: 15px 0;
+  background-color: #202322;
 }
 
 header .content-wrapper {
@@ -157,20 +170,29 @@ header .content-wrapper {
 
 .header-divider {
   width: 100%;
-  width: 1px;
+  height: 1px;
   margin: 10px 0 20px 0;
+  color: #3a3a3a;
 }
 
 /* ^the reason for align-items: center is to center the logo and nav in its parent element (header .content-wrapper) */
 
 header nav {
   width: 60%;
+  font-size: 1.125em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
   width: 100%;
+
+}
+
+header nav ul li {
+  font-size: 1.125em;
 }
 
 /* ^space-around is added so that the logo and nav have space around their parent container */
@@ -180,6 +202,7 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-color: #202322;
 }
 
 footer .content-wrapper {
@@ -202,6 +225,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  size: 1.3125em;
 }
 
 footer .social-icons p {
@@ -227,11 +251,45 @@ address {
   justify-content: center;
 }
 
+.hero-area h1 {
+  font-size: 2.25em;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
 /* Aside */
 
 aside {
   display: flex;
   justify-content: center;
+  background-color: #527158;
+}
+
+aside .form {
+  margin-top: 30px;
+}
+
+input[type=text] {
+  box-sizing: border-box;
+  width: 100%;
+  color: #2a423a;
+  font-style: italic;
+ padding: 1em;
+}
+
+input[type=button] {
+  width: 100%;
+  padding: 20px 0;
+  margin-top: 20px;
+  background-color: #21423a;
+  font-family: 'Poppins', Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.125em;
+  color: #e2e3ed;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 /* Features */
@@ -247,6 +305,7 @@ aside {
 }
 
 .features p {
+  text-align: center;
   margin: 0;
 }
 
@@ -259,6 +318,7 @@ aside {
   justify-content: center;
   align-items: flex-start;
   flex-flow: row wrap;
+  size: 3.75em;
 }
 
 /* Reviews */
@@ -266,10 +326,12 @@ aside {
 .reviews {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .reviews h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .reviews h3 {
@@ -282,11 +344,13 @@ aside {
 .mission {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .contact-section {
   display: flex;
   justify-content: center;
+  background-color: #2a423a;
 }
 
 .contact-content p {
@@ -297,6 +361,7 @@ aside {
 .faq {
   display: flex;
   justify-content: center;
+  background-color: #527158;
 }
 
 .faq .content-wrapper {
@@ -309,10 +374,15 @@ aside {
 
 .faq h2 {
   margin-bottom: 40px;
+  line-height: 1;
 }
 
 .faq-content {
   margin-bottom: 50px;
+}
+
+.faq-content h4 {
+  line-height: 1.333;
 }
 
 /* ==========================================================================
@@ -442,6 +512,10 @@ aside {
     width: 40%;
   }
 
+  aside .form {
+    margin-top: 30px;
+  }
+
   /* Features */
 
   .features article {
@@ -524,7 +598,7 @@ aside {
 
 @media only screen and (min-width: 1200px) {
   /* Desktop styles here */
-}
+
 
 header {
   padding: 15px 0;
@@ -549,6 +623,8 @@ aside .content-wrapper .form {
   width: 30%;
 }
 
+
+
 /* Features */
 .features h2 {
   width: 90%;
@@ -572,6 +648,8 @@ aside .content-wrapper .form {
 /* ======== FAQ Page ========= */
 .faq h2 {
   width: 100%;
+}
+
 }
 
 /* ==========================================================================
