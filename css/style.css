@@ -137,9 +137,11 @@ p {
 }
 
 img {
+  width: 100%;
 }
 
 figure {
+  margin: 0;
 }
 
 address {
@@ -249,6 +251,11 @@ address {
 .hero-area {
   display: flex;
   justify-content: center;
+  background-image: url('../unplugged-retreat.jpg');
+  background-size: cover;
+  background-color: #333;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-area h1 {
@@ -297,6 +304,11 @@ input[type=button] {
 .features {
   display: flex;
   justify-content: center;
+background-image: url('../unplugged-retreat-features.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #333;
 }
 
 .features article {
@@ -337,6 +349,14 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
   padding: 20px 0;
+}
+
+.reviews figure {
+  background-image: url('../unplugged-retreat-lacrue.jpg');
+  background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #333;
 }
 
 /* ========= About Page ========*/
