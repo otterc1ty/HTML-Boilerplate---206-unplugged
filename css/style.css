@@ -351,12 +351,9 @@ background-color: #333;
   padding: 20px 0;
 }
 
-.reviews figure {
-  background-image: url('../unplugged-retreat-lacrue.jpg');
-  background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-background-color: #333;
+article figure {
+
+
 }
 
 /* ========= About Page ========*/
@@ -552,7 +549,7 @@ background-color: #333;
   /* Reviews */
   .reviews article {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
   .reviews article div {
