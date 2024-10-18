@@ -376,6 +376,7 @@ article figure {
 }
 
 .map figure {
+  width: 100%;
   position: relative;
 padding-bottom: 125%;
 height: 0;
@@ -661,6 +662,10 @@ overflow: hidden;
 
 /* ========= About Page ======== */
 
+.map figure {
+  padding-bottom: 45%;
+}
+
 .mission-content {
   display: flex;
   justify-content: space-between;
@@ -785,6 +790,11 @@ footer h4 {
 
 
 /* ======== About Page ======= */
+
+.map figure {
+  padding-bottom: 37.5%;
+}
+
 .mission h2,
 .contact-section .content-wrapper h2 {
   width: 90%;
