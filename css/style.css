@@ -375,6 +375,21 @@ article figure {
   background-color: #2a423a;
 }
 
+.map figure {
+  position: relative;
+padding-bottom: 125%;
+height: 0;
+overflow: hidden;
+}
+
+.map iframe {
+  position: absolute;
+  top:0;
+  left:0;
+  height: 100%;
+  width: 100%;
+}
+
 .contact-content p {
   margin: 0;
 }
