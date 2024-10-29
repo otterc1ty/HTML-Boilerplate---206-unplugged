@@ -95,6 +95,7 @@ body {
   font-size: 1em;
   color: #e2e3ed;
   text-align: left;
+  background-color: #202322;
 }
 
 ul,
@@ -232,7 +233,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  size: 1.3125em;
+ 
 }
 
 footer .social-icons p {
@@ -245,7 +246,7 @@ footer .social-icons p {
   height: 40px;
 }
 
-.social-icons i {
+footer .social-icons p i {
   size: 1.3125em;
  
 
@@ -349,7 +350,7 @@ background-color: #333;
 .features .features-items {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+
   flex-flow: row wrap;
 
 }
@@ -401,8 +402,8 @@ overflow: hidden;
 
 .map iframe {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
   height: 100%;
   width: 100%;
 }
@@ -607,6 +608,10 @@ overflow: hidden;
     margin-bottom: 20px;
   }
 
+  .features .features-items {
+    align-items: flex-start;
+  }
+
   .features article {
     display: flex;
     align-items: center;
@@ -616,6 +621,10 @@ overflow: hidden;
 
   .features .features-item-description {
     width: 62%;
+  }
+
+  .features i {
+    margin-bottom: 30px;
   }
 
   /* Reviews */
@@ -630,14 +639,11 @@ overflow: hidden;
     width: 85%;
   }
 
+  .reviews article figure,
   .reviews article div {
     width: 49%;
 
 
-  }
-
-  article figure {
-    width: 50%;
   }
 
   .reviews h3 {
@@ -654,7 +660,7 @@ overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: row;
+  
   }
 
   footer .contact {
@@ -669,6 +675,11 @@ overflow: hidden;
   footer p {
     line-height: 1.285;
 
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
@@ -694,7 +705,7 @@ overflow: hidden;
 }
 
 .contact-section .content-wrapper h2 {
-  width: 76%;
+  width: 80%;
 }
 
 .contact-content {
@@ -709,7 +720,7 @@ overflow: hidden;
 
 /* =========== FAQ Page ======== */
 
-.faq h4, p {
+.faq h4, .faq p {
   font-size: 0.875em;
   line-height: 1.125;
 }
@@ -813,7 +824,7 @@ footer h4 {
 
 .mission h2,
 .contact-section .content-wrapper h2 {
-  width: 90%;
+  width: 95%;
   font-size: 3em;
 }
 
