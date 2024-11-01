@@ -685,7 +685,7 @@ overflow: hidden;
   footer .copyright {
     width: 100%;
   }
-}
+
 
 /* ========= About Page ======== */
 
@@ -735,6 +735,8 @@ overflow: hidden;
 
 .faq h2 {
   width: 100%;
+}
+
 }
 
 @media only screen and (min-width: 1200px) {
